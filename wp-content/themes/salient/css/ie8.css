@@ -1,0 +1,293 @@
+	body .swiper-slide .content h2 {
+		font-size: 33px!important;
+		line-height: 57px!important;
+		margin-bottom: 8px;
+	}
+	
+	body .swiper-slide .content p, body .swiper-slide .content p.transparent-bg span {
+		font-size: 17px!important;
+		line-height: 26px!important;
+		margin-top: 10px;
+	}
+
+.swiper-slide .content h2 {
+	letter-spacing: -1px;
+	display: block;
+	color: #fff;
+    font-family: 'OpenSansRegular';
+	padding: 4px 0px;
+    margin-bottom: 10px;
+	display: inline;
+	position: relative;
+	background-color: #666666;
+}
+
+.swiper-slide .content p.transparent-bg span {
+	padding: 4px 0px;
+	display: inline;
+	position: relative;
+	background-color: #666666;
+	line-height: 45px;
+}
+	
+#featured article .post-title > a {
+    border: 2px solid #fff;
+}
+
+#featured article .post-title h2 {
+	padding: 10px;
+	margin-left: -10px;
+}
+
+#featured article .post-title h2[data-has-caption="1"] {
+	background-color: #000;
+}
+
+#featured {
+	margin-top: -130px!important;
+}
+
+div.orbit-wrapper {
+	z-index: -100;
+	position: relative!important;
+}
+
+.single-portfolio #sidebar {
+	position: relative!important;
+	margin-left: 0px!important;
+	top: 0px!Important;
+	bottom: 0px!important;
+}
+
+body, #header-outer {
+	padding-right: 0px!Important;
+}
+
+ body[data-smooth-scrolling="1"] .orbit-wrapper div.slider-nav span.right {
+  right: 0px!important; 
+}
+
+
+#header-outer header#top nav {
+	display: block!important;
+}
+
+.full-width-section.parallax_section {
+	background-position: center center!important;
+	background-attachment: scroll!important;
+}
+
+.container-wrap {
+	margin-top: 0px;
+}
+
+#page-header-bg[data-parallax="0"] {
+	margin-top: -70px;
+}
+
+.video-texture {
+	display: none!important;
+}
+
+
+.swiper-slide .video-wrap object {
+    display: block;
+	margin: 0 auto!important;
+    width: 1400px!important;
+    height: 800px!important;	
+}
+
+.swiper-slide .mejs-container, .swiper-slide .video-wrap {
+	position: static!important;
+}
+
+.swiper-slide .mejs-container .mejs-controls {
+	visibility: visible!important;
+	display: block!important;
+}
+
+.nectar-slider-loading {
+  display: none!important;	
+}
+
+
+.swiper-container .slider-prev, .swiper-container .slider-next {
+	background-image: url("../img/ie8-transparency.png");	
+}
+
+.slider-prev.dark-cs, .slider-next.dark-cs {
+	background-image: url("../img/ie8-transparency-white.png");	
+}
+
+.swiper-container .slider-prev .slide-count span, .swiper-container .slider-next .slide-count span {
+	-ms-filter: "alpha(opacity=0)";
+} 
+
+.swiper-container .slide-count i {
+	display: block;
+	-ms-filter: "alpha(opacity=0)";
+}
+
+.portfolio-loading {
+   display: none;
+}
+
+.parallax_slider_outer.first-section {
+	margin-top: -70px!important;
+}
+
+#full_width_portfolio .parallax_slider_outer.first-section  {
+	margin-top: 0px!important;
+}
+
+.swiper-slide .button.transparent a, .col.light .nectar-button.see-through {
+	border: 2px solid #fff!important;
+}
+
+.swiper-slide[data-color-scheme="dark"] .content .button.transparent a, .nectar-button.see-through {
+    border: 2px solid #000!important;
+}
+
+.swiper-slide .content p, .swiper-slide .content h2, .swiper-slide .content .buttons {
+	padding-top: 0px!important;
+}
+
+
+/* keep this in here to avoid the flash of everything on its own row while loading */
+.span_1 { width: 6.5%; }
+.span_2 { width: 15.0%; }
+.span_3 { width: 23.5%; }
+.span_4 { width: 32.0%; }
+.span_5 { width: 40.5%; }
+.span_6 { width: 49.0%; }
+.span_7 { width: 57.5%; }
+.span_8 { width: 66.0%; }
+.span_9 { width: 74.5%; }
+.span_10 { width: 83.0%; }
+.span_11 { width: 91.5%; }
+.span_12 { width: 100%; }
+
+.slider-pagination .swiper-pagination-switch {
+	border: 1px solid #fff;
+    background-color: #f05423;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+    display: inline-block;
+    height: 10px;
+    margin: 0 4px;
+    width: 10px;
+    transition: background-color 0.2s linear, border-color 0.2s linear;
+    -moz-transition: background-color 0.2s linear, border-color 0.2s linear;
+    -webkit-transition: background-color 0.2s linear, border-color 0.2s linear;
+    -o-transition: background-color 0.2s linear, border-color 0.2s linear;
+	behavior: url('css/pie/PIE.htc');
+}
+.testimonial_slider {
+	float: none;
+	opacity: 0;
+	margin-bottom: 0px;
+}
+
+html:not(.js) .testimonial_slider {
+	opacity: 1;
+	height: auto;
+}
+
+.testimonial_slider blockquote {
+	padding-left: 0px;
+	text-align: center;
+	color: rgba(0,0,0,1);
+	background-image: none;
+	font-size: 22px;
+	width: 100%;
+	margin: 0 auto;
+	opacity: 0;
+	position: absolute;
+}
+
+.testimonial_slider blockquote p {
+	padding-bottom: 0px;
+}
+
+.testimonial_slider .controls ul {
+	margin: 0px!important;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+.testimonial_slider .controls ul li {
+	list-style: none!important;
+	cursor: pointer;
+	display: inline;
+}
+
+.testimonial_slider .controls ul li span.pagination-switch {
+	background-color: #F05423;
+    border: 1px solid #333;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+    display: inline-block;
+    height: 10px;
+    margin: 0 4px;
+    transition: background-color 0.2s linear 0s, border-color 0.2s linear 0s;
+    width: 10px;
+	behavior: url('css/pie/PIE.htc');
+
+}
+
+.testimonial_slider .controls ul li span.pagination-switch:hover, .testimonial_slider .controls ul li span.pagination-switch.active {
+	background-color: #333;
+}
+
+.testimonial_slider .controls {
+	position: absolute;
+	bottom: -22px;
+	z-index: 30;
+	width: 100%;
+	text-align: center;
+}
+
+.testimonial_slider .slides {
+	overflow: hidden;
+	position: relative;
+}
+
+.testimonial_slider blockquote span {
+	font-size: 16px;
+	color: rgba(0,0,0,.7);
+}
+
+.light .testimonial_slider blockquote {
+	color: rgba(255,255,255,0.95);
+}
+
+.light .testimonial_slider blockquote span {
+	color: rgba(255,255,255,0.65);
+}
+
+.light h1, .light h2, .light h3, .light h4, .light h5, .light h6, .light p {
+	color: #fff;
+}
+
+.testimonial_slider .controls ul li i {
+	color: #444444;
+}
+.light .testimonial_slider .controls ul li span {
+	border-color: #fff;
+}
+
+.light .testimonial_slider .controls ul li span:hover, .light .testimonial_slider .controls ul li span.pagination-switch.active {
+	background-color: #fff!important;
+}
+
+.toggles .testimonial_slider {
+    padding-bottom: 0px!important;
+}
+
+.toggles .testimonial_slider .controls {
+   bottom: 2px!important;
+}
+.container-wrap .row > .wpb_row:last-child, .home-wrap .row > .wpb_row:last-child, #portfolio-extra > .wpb_row:last-child {
+	margin-bottom: 0px!important;
+}

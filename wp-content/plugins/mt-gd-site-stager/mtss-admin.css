@@ -1,0 +1,25 @@
+.mtss-wrapper img {
+	padding-right: 12px;
+}
+
+.mtss-wrapper .info {
+	font-size: 1.3em;
+}
+
+#overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 1001; 
+	background: rgba(0,0,0,.3); 
+}
+
+#files, #tables {
+	border: 1px solid #ccc;
+	padding: 10px;
+	margin-right: 20px;
+}
+
+#files h4 {
+	margin-top: 0;
+}
