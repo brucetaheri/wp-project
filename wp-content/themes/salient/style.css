@@ -291,7 +291,9 @@ caption, th, td {
 	padding-top: 93px;
 	padding-bottom: 40px;
 }
-
+body .container-wrap{
+	padding-bottom: 0px;
+}
 .project-title {
 	padding-bottom: 0px;
 }
@@ -1458,16 +1460,19 @@ only screen and (min-resolution: 144dpi) {
 }
 
 body .wpb_separator, body .vc_text_separator {
-	border-color: rgba(0,0,0,0.06);
+	margin-top: 30px;
+	text-align: left;
+	color: #fa4c06;
+	display: block;	
 }
 
 body .vc_text_separator div {
 	background-color: #f5f5f5;
     	font-family: 'Aller', Calibri, sans-serif;
-	font-size: 22px;
+	font-size: 3rem !important;
 	line-height: 32px;
     	letter-spacing: 0.5px;
-	top: -20px;
+	padding-left: 18px;
 }
 
 .light .divider-small-border {
@@ -2278,7 +2283,7 @@ html:not(.js) .nectar-slider-wrap {
 .slider-pagination {
 	position: absolute;
 	z-index: 20;
-	top: 225px;
+	top: 300px;
 	display: block;
 	right:30px;
 	text-align: right;
@@ -6235,11 +6240,10 @@ html:not(.js) .full-width-section {
 
 #footer-outer #copyright {
 	padding: 20px 0px;
-	font-size: 12px;
+	font-size: 14px;
+	text-align: center;
 	background-color: #1f1f1f;
 	border-top: 1px solid #3a3a3a;
-	color: #777;
-        background-image: url('http://tegrita.com/wp-content/uploads/2014/06/BluePatternUpdated-1.png');
 
 }
 
@@ -7917,8 +7921,144 @@ label span {
 
 
 
+#font-large{
+	font-size: 30px;
+    font-weight: bolder;
+	margin-right: 30px;
+	margin-left: 10px;
+    color: rgb(6, 42, 71);
+}
+#font-small{
+	font-size: 14px;
+    font-weight: lighter;
+	margin-right: 10px;
+    color: rgb(6, 42, 71);
+}
 
+li div.font-divider{
+	margin-top: 5px;
+	width:1px; 
+	height:15px; 
+	background: rgb(6, 42, 71);
+}
 
 .main-content .row .wpb_row{
 	margin-bottom: 0;
+}
+
+.company_description {
+	border-top: dotted 5px rgba(6, 6, 3, 0.88);
+	border-right: dotted 5px rgba(6, 6, 3, 0.88);
+}
+
+.company_description > .wpb_text_column.wpb_content_element  > .wpb_wrapper{
+    font-size: 2.5rem;
+    color: #949699;
+	line-height: 60px;
+	padding-left: 18px;
+	padding-right: 40px;
+}
+
+.company_description p {
+	padding-bottom: 35px !important;
+	padding-top: 15px;
+}
+
+.testimonial {
+	width:100%; 
+	display:block;
+	margin-top: 5rem;
+}
+
+.testimonial_image{
+	width: 50%; 
+	height: 600px; 
+	float:left;
+}
+
+.testimonial_description{
+	width:50%; 
+	height:100%; 
+	min-height: 600px;
+	float:left;
+	position: relative;
+}
+
+.testimonial_description .wpb_row, .col, .full-width-section{
+	position: static;
+}
+
+.testimonial_description .testimonial_slider .controls ul li span.pagination-switch{
+	bottom: 20px;
+	left: 0;
+	border-color: gray;
+	width: 1.1rem;
+	height: 1.1rem;
+	border-radius: 100%;
+}
+
+.testimonial_description .testimonial_slider .controls {
+	position: absolute;
+	bottom: 40px;
+	left: 40px;
+	text-align: left;
+}
+
+.testimonial_description .testimonial_slider .controls ul{
+	text-align: left;
+}
+
+.testimonial_description .testimonial_slider .controls ul li span:hover, .light .testimonial_slider .controls ul li span.pagination-switch.active{
+	background-color: gray !important;
+}
+
+.testimonial_description>div{
+	margin-top: 0 !important;
+	background-color: white !important;
+}
+
+.testimonial_description blockquote{
+	text-align: left !important;
+	left: 0 !important;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 20px;
+}
+
+.testimonial_description blockquote p{
+	color: rgb(147, 149, 152);
+	font-size: 1.7rem;
+	line-height: 37px;
+	padding-right: 65px;
+}
+
+.testimonial_description blockquote span{
+	color: rgb(145, 147, 150) !important;
+	font-size: 1rem !important;
+}
+
+.testimonial_description .vc_text_separator>div{
+	background-color: white !important;
+	font-size: 1.7rem !important;
+	margin-left: 20px;
+}
+
+#footer-outer p{
+	padding-bottom: 0;	
+}
+
+#footer-outer .footer_menu{
+	display: inline-block;
+}
+
+.sangar-timer{
+	display: none!important;
+}
+
+.sangar-control-panel{
+	display: none!important;
+}
+
+.sangar-slideshow-container .sangar-textbox-content{
+	background: none!important;
 }

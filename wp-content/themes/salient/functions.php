@@ -34,6 +34,8 @@ function nectar_register_js() {
 		wp_register_script('touchSwipe', get_template_directory_uri() . '/js/swipe.min.js', 'jquery', '1.6', TRUE);
 		wp_register_script('respond', get_template_directory_uri() . '/js/respond.js', 'jquery', '1.1',TRUE);
 		wp_register_script('orbit', get_template_directory_uri() . '/js/orbit.js', 'jquery', '1.4', TRUE);
+		wp_register_script('carousel', get_template_directory_uri() . '/js/carousel.js', 'jquery', '1.4', TRUE);
+		wp_register_script('verticalslider', get_template_directory_uri() . '/js/verticalslider.js', 'jquery', '1.4', TRUE);
 		wp_register_script('nicescroll', get_template_directory_uri() . '/js/nicescroll.js', 'jquery', '3.5.4' ,TRUE);
 		wp_register_script('sticky', get_template_directory_uri() . '/js/sticky.js', 'jquery', '1.0', TRUE);
 		wp_register_script('nectar_prettyPhoto', get_template_directory_uri() . '/js/prettyPhoto.js', 'jquery', '3.1.5', TRUE);
@@ -63,6 +65,8 @@ function nectar_register_js() {
 		wp_enqueue_script('nicescroll');
 		wp_enqueue_script('sticky'); 
 		wp_enqueue_script('nectar_prettyPhoto');
+		wp_enqueue_script('carousel');
+		wp_enqueue_script('verticalslider');
 		wp_enqueue_script('flexslider');
 		wp_enqueue_script('isotope');
 		wp_enqueue_script('carouFredSel');
@@ -1139,7 +1143,7 @@ function nectar_slider_display($config_arr){
 			<div class="dotted_line" style="position: absolute; width:300px; height:100%; top:0; left:65px; background-color:red; z-index:9999; background-color:transparent;">
 				<div style="width:100%; height: 23%; background-color: transparent;"></div>
 				<div style="width:100%; height: 72%; border-left:dotted 5px white; background-color: transparent; margin-bottom:1.5%;"></div>
-				<div style="width:100%; height: 4%; border-left:dotted 5px black; background-color: transparent;"></div>
+				<div style="width:100%; height: 4%; border-left:dotted 5px rgba(6, 6, 3, 0.88); background-color: transparent;"></div>
 			</div>
 		<div style="height: '.$config_arr['slider_height'].'px" class="swiper-container" data-loop="'.$config_arr['loop'].'" data-height="'. $config_arr["slider_height"] .'" data-arrows="' . $config_arr["arrow_navigation"].'" data-bullets="'.$config_arr["bullet_navigation"].'" data-desktop-swipe="'. $config_arr["desktop_swipe"].'" data-settings="">
 			    <div class="swiper-wrapper">';
@@ -2447,6 +2451,7 @@ function add_opengraph() {
 if ( !defined('WPSEO_VERSION') && !class_exists('NY_OG_Admin')) {
 	add_action( 'wp_head', 'add_opengraph', 5 );
 }
+
 
 
 ?>

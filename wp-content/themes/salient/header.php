@@ -133,7 +133,7 @@ if($using_secondary == 'header_with_secondary') { ?>
 
 				</div><!--/span_3-->
 				
-				<div class="col span_9 col_last">
+				<div class="col span_7">
 					
 					<a href="#" id="toggle-nav"><i class="icon-reorder"></i></a>
 					
@@ -154,6 +154,18 @@ if($using_secondary == 'header_with_secondary') { ?>
 							?>
 							
 				</div><!--/span_9-->
+
+				<div class="col span_2 col_last">
+					<ul id="social">
+						<li><a target="_blank" href="<?php echo $options['linkedin-url']; ?>"><i class="icon-linkedin"></i> </a></li>
+						<li><a target="_blank" href="<?php echo $options['twitter-url']; ?>"><i class="icon-twitter"></i> </a></li>
+						<li><a id="font-large">A</a></li>
+						<li>
+							<div class="font-divider"></div>
+						</li>
+						<li><a id="font-small">A</a></li>
+					</ul>
+				</div>
 			
 			</div><!--/row-->
 			

@@ -1,6 +1,6 @@
 @media only screen and (min-width: 1300px) {
    .container {
-	max-width: 1700px;  
+	max-width: 1800px;  
 	padding: 0;
    }
    
@@ -3074,9 +3074,7 @@ and (min-width : 1px) and (max-width : 1000px) {
 	padding-left: 65px;
 	padding-right: 65px;
 }
-.wpb_row  .wpb_wrapper :first-child.divider{
-	border-top: dotted 5px;
-}
+
 
 .swiper-wrapper .container .content{
 	padding-left:70px !important;
@@ -3103,4 +3101,26 @@ and (min-width : 1px) and (max-width : 1000px) {
 
 .header #header-space{
 	height: 90px !important;
+}
+
+#top ul#social{
+	text-align: right;
+}
+
+#top ul#social li{
+	float: right;
+	margin-top: 20px;
+}
+
+#top ul#social li:nth-child(1){
+	margin-right:12px;
+}
+
+#top ul#social li:nth-child(2){
+	margin-right:12px;
+}
+
+#social i{
+	background-color: transparent!important;
+	font-size: 20px !important;
 }

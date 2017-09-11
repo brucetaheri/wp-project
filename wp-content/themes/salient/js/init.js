@@ -549,7 +549,9 @@ jQuery(document).ready(function($){
     	var $autoplayBool = ($(this).attr('data-autorotate') == 'true') ? true : false;
 
 		(parseInt($(this).attr('data-scroll-speed'))) ? scrollSpeed = parseInt($(this).attr('data-scroll-speed')) : scrollSpeed = 700;
+		if ($(this).attr('data-easing') !== undefined) { 
 		($(this).attr('data-easing').length > 0) ? easing = $(this).attr('data-easing') : easing = 'linear';
+		}
 		
 		
 		var $element = $that;

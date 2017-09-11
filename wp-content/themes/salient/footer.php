@@ -101,7 +101,7 @@ $cta_btn_color = (!empty($options['cta-btn-color'])) ? $options['cta-btn-color']
 			
 			<div class="container">
 				
-				<div class="col span_5">
+				<div class="col span_12">
 					
 					<?php if(!empty($options['disable-auto-copyright']) && $options['disable-auto-copyright'] == 1) { ?>
 						<p><?php if(!empty($options['footer-copyright-text'])) echo $options['footer-copyright-text']; ?> </p>	
@@ -111,7 +111,7 @@ $cta_btn_color = (!empty($options['cta-btn-color'])) ? $options['cta-btn-color']
 					
 				</div><!--/span_5-->
 				
-				<div class="col span_7 col_last">
+				<div class="col span_12 col_last">
 					<ul id="social">
 						<?php  if(!empty($options['use-twitter-icon']) && $options['use-twitter-icon'] == 1) { ?> <li><a target="_blank" href="<?php echo $options['twitter-url']; ?>"><i class="icon-twitter"></i> </a></li> <?php } ?>
 						<?php  if(!empty($options['use-facebook-icon']) && $options['use-facebook-icon'] == 1) { ?> <li><a target="_blank" href="<?php echo $options['facebook-url']; ?>"><i class="icon-facebook"></i> </a></li> <?php } ?>
