@@ -181,7 +181,7 @@
   position: static;
 }
 #mega-menu-wrap-top_nav #mega-menu-top_nav > li.mega-menu-item {
-  margin: 0 3px 0 0;
+  margin: 0 3px 0 10px;
   display: inline-block;
   height: auto;
 }

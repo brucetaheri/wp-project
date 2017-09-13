@@ -1,0 +1,62 @@
+.sangar-custom-content-container {	
+	margin-left:auto;
+	margin-right:auto;
+	display: none;
+}
+
+.sangar-custom-content-container > ul {
+	float: left;
+	margin-top: 15px;
+}
+
+.sangar-custom-content-container > ul > li {	
+	list-style: none;
+	float: left;
+	margin-left: 0px;
+}
+
+.sangar-custom-content {
+	background:grey;
+	color:white;
+	padding:10px 25px;
+	box-sizing:border-box;
+	display:none;
+}
+
+.exPagination {
+	float:left;
+	padding: 4px 2px 8px 10px;
+	font-size: 16px;
+	color: #fff;
+	border: 1px solid #2D2D2D;
+	background-color: #4C4C4C;
+	width: 18px;
+	height: 18px;
+	display: inline-block;
+	line-height: normal;
+	margin-right: 10px;
+	text-decoration:none;
+}
+
+.exPagination.active {
+	background: #fff;
+	color: #4C4C4C;
+}
+
+.exNext, .exPrev {
+	float: right;
+	padding: 4px 8px 8px 8px;
+	font-size: 16px;
+	color: #ffffff !important;
+	border: 1px solid #2D2D2D;
+	background-color: #4C4C4C;
+	height: 18px;
+	display: inline-block;
+	line-height: normal;	
+	text-decoration: none;
+	margin-top: 15px;
+}
+
+.exPrev {
+	margin-right:8px;
+}
