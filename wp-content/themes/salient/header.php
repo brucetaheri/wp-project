@@ -123,7 +123,6 @@ if($using_secondary == 'header_with_secondary') { ?>
 						<?php if(!empty($options['use-logo'])) {
 							
 							$default_logo_id = (!empty($options['retina-logo'])) ? 'id="default-logo"' : null;
-							
 							 echo '<img '.$default_logo_id.' alt="'. get_bloginfo('name') .'" src="' . $options['logo'] . '" />';
 							 
 							 if(!empty($options['retina-logo'])) echo '<img id="retina-logo" alt="'. get_bloginfo('name') .'" src="' . $options['retina-logo'] . '" />';

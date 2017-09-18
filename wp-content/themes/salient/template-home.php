@@ -7,8 +7,8 @@ get_header();
     echo do_shortcode('[sangar-slider id=4092]');
     ?>
     <div class="dotted_line_box">
-        <div style="height: 32%;"></div>
-        <div style="width: 100%; height: 64%; border-left: dotted 5px white;"></div>
+        <div style="height: 280px;"></div>
+        <div style="width: 100%; height: 68%; border-left: dotted 5px white;"></div>
         <div style="height: 4%; border-left: dotted 5px rgba(6, 6, 3, 0.78)"></div>
     </div>
 </div>
@@ -40,15 +40,102 @@ get_header();
 </div>
 
 <div class="blog_section_up">
-    <div class="blog_left"></div>
-    <div class="blog_middle"></div>
-    <div class="blog_right"></div>
+    <div class="blog_left">
+        <?php
+            $args = array(
+                    'numberposts' => 4,
+                    'offset' => 0,
+                    'category' => 0,
+                    'orderby' => 'post_date',
+                    'order' => 'DESC',
+                    'include' => '',
+                    'exclude' => '',
+                    'meta_key' => '',
+                    'meta_value' => '',
+                    'post_type' => 'post',
+                    'post_status' => 'draft, publish, future, pending, private',
+                    'suppress_filters' => true 
+            );
+            $recent_posts = wp_get_recent_posts($args);
+            
+            
+                if (has_post_thumbnail($recent_posts[0]["ID"])) {
+                    echo get_the_post_thumbnail($recent_posts[0]["ID"], 'medium');
+                }?>
+        <div class="blog_left_overlay">
+            <div class="blog_date">
+                <?php echo get_the_date('Y-m-d', $recent_posts[0]["ID"]); ?>
+            </div>
+            <div class="blog_title"> 
+                <?php echo get_the_title($recent_posts[0]["ID"]);?>
+            </div>
+            <div style="width: 35px; height: 3px; border-top: 3px solid white"></div>
+            <button>+ Read More</button>
+        </div>
+    </div>
 
+    <div class="blog_middle">
+        <p>Industries -</p>
+        <p>Crowd funding, Sports & entertainment, Technology, Trades, Financial Services, Software</p>
+    </div>
+
+    <div class="blog_right">
+        <p>Services -</p>
+        <p>implementations, Campaign execution, Nurture Campaign Stratety Development, Integrations, System maintainence, Monitoring </p>
+    </div>
 </div>
+
 <div class="blog_section_down">
-    <div class="blog_left"></div>
-    <div class="blog_middle"></div>
-    <div class="blog_right"></div>
+    <div class="blog_left">
+        <div class="img_overlay">
+            <?php
+                if (has_post_thumbnail($recent_posts[1]["ID"])) {
+                    echo get_the_post_thumbnail($recent_posts[1]["ID"], 'medium');
+                }?>
+        </div>
+        <div class="blog_date">
+            <?php echo get_the_date('Y-m-d', $recent_posts[1]["ID"]); ?>
+        </div>
+        <div class="blog_title"> 
+            <?php echo get_the_title($recent_posts[1]["ID"]);?>
+        </div>
+        <div style="width: 35px; height: 3px; border-top: 3px solid white; margin-left: 35px;"></div>
+        <button>+ Read More</button>
+    </div>
+
+    <div class="blog_middle">
+        <div class="img_overlay">
+            <?php 
+                if (has_post_thumbnail($recent_posts[2]["ID"])) {
+                        echo get_the_post_thumbnail($recent_posts[2]["ID"], 'large');
+                }?>
+        </div>
+        <div class="blog_date">
+            <?php echo get_the_date('Y-m-d', $recent_posts[2]["ID"]); ?>
+        </div>
+        <div class="blog_title"> 
+            <?php echo get_the_title($recent_posts[2]["ID"]);?>
+        </div>
+        <div style="width: 35px; height: 3px; border-top: 3px solid rgb(6, 42, 71); margin-left: 35px;"></div>
+        <button>+ Read More</button>
+    </div>
+
+    <div class="blog_right">
+        <div class="img_overlay">
+            <?php 
+                if (has_post_thumbnail($recent_posts[3]["ID"])) {
+                        echo get_the_post_thumbnail($recent_posts[3]["ID"], 'medium');
+                }?>
+        </div>
+        <div class="blog_date">
+            <?php echo get_the_date('Y-m-d', $recent_posts[3]["ID"]); ?>
+        </div>
+        <div class="blog_title"> 
+            <?php echo get_the_title($recent_posts[3]["ID"]);?>
+        </div>
+        <div style="width: 35px; height: 3px; border-top: 3px solid white; margin-left: 35px;"></div>
+        <button>+ Read More</button>
+    </div>
 </div>
 
 <?php get_footer(); ?>
