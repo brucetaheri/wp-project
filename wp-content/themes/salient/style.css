@@ -8633,3 +8633,89 @@ body.page-template-page-news li div.font-divider{
 	font-weight: bold;
 	border-radius: 5px;
 }
+
+
+/* Industries Page */
+
+.industry_top{
+	width: 100%;
+	min-height: 450px;
+	background: #fa4c06;
+	margin-top: -3px;
+	padding-top: 110px;
+	padding-bottom: 70px;
+}
+
+.industry_top p{
+	font-size: 28px;
+	color: rgb(6, 42, 71);
+	font-weight: bold;
+	margin-left: 120px;
+}
+
+.industry_top .industry_description{
+	margin-left: 110px;
+	margin-top: 10px;
+	width: 60%;
+	line-height: 47px;
+	font-size: 35px;
+	color: white;
+	font-weight: normal;
+}
+
+.industry_categories {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.industry_categories div{
+	width: 33.3%;
+	height: 400px;
+	background: rgb(230, 230, 230);
+	border: 1.5px solid white;
+	text-align: center;
+}
+
+.industry_categories div:nth-child(2){
+	background: rgb(204, 204, 204);
+}
+
+.industry_categories div:nth-child(2) p{
+	color: #fa4c06;
+}
+
+.industry_categories div img{
+	padding-top: 15%;
+}
+
+.industry_categories div p{
+	padding-top: 4%;
+	font-size: 37px;
+	color: rgb(6, 42, 71);
+}
+
+/* Results page */
+
+.results_top{
+	width: 100%;
+	min-height: 600px;
+	background: #fa4c06;
+	margin-top: -3px;
+	position: relative;
+}
+
+.results_top>div {
+	position: absolute;
+	bottom: 0;
+	width: 88%;
+	background: white;
+	margin-left: auto;
+	margin-right: auto;
+	left: 6%;
+	padding: 50px 120px;
+}
+
+.results_top>div p{
+	font-size: 40px;
+	color: rgb(6, 42, 71);
+}

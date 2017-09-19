@@ -56,7 +56,7 @@ get_header(); ?>
     </div>
 </div>
 
-<div style="color: rgb(6, 42, 71); line-height: 180px; font-size: 30px; margin-left: 40px; font-weight: bold;">Recent</div>
+<div style="color: rgb(6, 42, 71); line-height: 180px; font-size: 50px; margin-left: 40px; font-weight: bold;">Recent</div>
 
 <div class="news_blog_bottom">
     <div class="news_blog_3">
@@ -135,7 +135,7 @@ get_header(); ?>
         </div>
     </div>
 </div>
-
+<div style="width: 100%; height: 100px;"></div>
 
 
 <?php get_footer(); ?>
