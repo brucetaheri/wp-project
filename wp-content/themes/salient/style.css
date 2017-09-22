@@ -9045,4 +9045,59 @@ body.page-template-page-about header#top .container .row{
 	color: white;
 }
 
-body
+/* Team page */
+
+.team_top{
+	width: 100%;
+	background: #fa4c06;
+	padding-top: 100px;
+}
+
+.team_top p:first-child{
+	font-size: 42px;
+	margin-left: 70px;
+	line-height: 50px;
+	color: rgb(6, 42, 71);
+}
+
+.team_top p:last-child{
+	font-size: 37px;
+	margin-left: 65px;
+	line-height: 50px;
+	color: white;
+	width: 85%;
+	padding-bottom: 100px;
+}
+
+.team_section>p {
+	font-size: 43px;
+	line-height: 100px;
+	color: rgb(6, 42, 71);
+	margin-left: 65px;
+}
+
+.team_section {
+	width: 100%;
+}
+
+.team_img>div{
+	border: 1px solid white;
+	width: 33.33%;
+	flex-wrap: wrap;
+}
+
+.team_img{
+	display: flex;
+}
+
+.team_img div img{
+	width: 100%;
+}
+
+.team_img div p{
+	font-size: 36px;
+	margin-left: 70px;
+	margin-top: 70px;
+	color: rgb(143, 141, 141);
+
+}

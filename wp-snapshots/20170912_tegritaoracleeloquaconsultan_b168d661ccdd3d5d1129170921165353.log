@@ -1,0 +1,81 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 2017-09-21 16:54:22
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.2.22
+WORDPRESS:	4.8.1
+PHP INFO:	5.5.35 | SAPI: apache2handler
+SERVER:		Apache/2.4.20 (Unix) PHP/5.5.35 mod_wsgi/3.5 Python/3.5.1 OpenSSL/1.0.1p 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 2048M (128M default) 
+MEMORY STACK: 26MB 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP(query limit - 100)
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Not Supported 
+TABLES: total:33 | filtered:0 | create:33 
+FILTERED: [] 
+SQL CREATED: 20170912_tegritaoracleeloquaconsultan_b168d661ccdd3d5d1129170921165353_database.sql 
+SQL FILE SIZE: 9.41MB (9868706) 
+SQL FILE TIME: 2017-09-21 16:54:24 
+SQL RUNTIME: 2.10 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  /Applications/AMPPS/www 
+ARCHIVE FILE: 20170912_tegritaoracleeloquaconsultan_b168d661ccdd3d5d1129170921165353_archive.zip 
+FILTERS: *ON* 
+DIRS:
+	/Applications/AMPPS/www/.git
+	/Applications/AMPPS/www/themes
+	/Applications/AMPPS/www/wp-content/uploads 
+FILES:
+	not set 
+EXTS:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	147.99MB 
+STATS:	Dirs 1,079 | Files 6,912 
+SQL ADDED: 20170912_tegritaoracleeloquaconsultan_b168d661ccdd3d5d1129170921165353_database.sql 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 7991
+    [filename] => /Applications/AMPPS/www/wp-snapshots/tmp/20170912_tegritaoracleeloquaconsultan_b168d661ccdd3d5d1129170921165353_archive.zip
+    [comment] => 
+)
+ 
+COMPRESSION RESULT: '1' 
+COMPRESSED SIZE: 79.83MB 
+ARCHIVE RUNTIME: 49.59 sec. 
+MEMORY STACK: 28.75MB 
+
+******************************************************************************** 
+MAKE INSTALLER: 
+******************************************************************************** 
+Build Start 
+Build Finished 
+Preping for use 
+PACK SIZE:  
+Template parsed with new data 
+Complete [/Applications/AMPPS/www/wp-snapshots/tmp/20170912_tegritaoracleeloquaconsultan_b168d661ccdd3d5d1129170921165353_installer.php] 
+Added to archive 
+
+******************************************************************************** 
+INTEGRITY CHECKS: 
+******************************************************************************** 
+SQL File: 9.41MB 
+Installer File: 435.01KB 
+Archive File: 79.83MB  
+
+********************************************************************************
+RECORD ID:[3]
+TOTAL PROCESS RUNTIME: 54.27 sec.
+PEAK PHP MEMORY USED: 30.5MB
+DONE PROCESSING => 20170912_tegritaoracleeloquaconsultan 2017-09-21 16:55:16
+ 
